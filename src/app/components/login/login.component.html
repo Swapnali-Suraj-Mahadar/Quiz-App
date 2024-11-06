@@ -1,0 +1,38 @@
+<div class="loignCard container">
+    <!-- d-flex aligns-items-center justify-content-center card text-center w-75 mx-auto" -->
+    <form [formGroup]="userLoginForm" class="min-vh-100 d-flex justify-content-center align-items-center mx-auto">
+
+        <div class="card-group ">
+            <div class="card">
+                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                <img class="card-img-top" src="../../assets/brain_excersize.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Quiz App</h5>
+                    <!-- Email input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="form3Example3">Email address</label>
+                        <input formControlName="email" type="email" id="form3Example3"
+                            class="form-control form-control-lg" placeholder="Enter a valid email address" />
+                        <small *ngIf="email.invalid && (email.dirty) || email.touched" class="text-danger">
+                            <div *ngIf="email.errors?.['required']">Email is required</div>
+                            <div *ngIf="email.errors?.['email']">Email should be valid</div>
+                        </small>
+                    </div>
+
+                    <!-- Password input -->
+                    <div data-mdb-input-init class="form-outline mb-3">
+                        <label class="form-label" for="form3Example4">Password</label>
+                        <input formControlName="password" type="password" id="form3Example4"
+                            class="form-control form-control-lg" placeholder="Enter password" />
+                        <small *ngIf="password.invalid && (password.dirty) || password.touched" class="text-danger">
+                            <div *ngIf="password.errors?.['required']">Password is required</div>
+                            <div *ngIf="password.errors?.['minlength']">Password must be at least 6 characters</div>
+                            <div *ngIf="password.errors?.['maxlength']"> Password must not exceed 40 characters</div>
+                        </small>
+                    </div>
+                    <button href="#" class="btn btn-primary" [disabled]="userLoginForm.invalid" (click)="onLogin()">Login</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
