@@ -1,0 +1,578 @@
+{
+    "easy_questions": [
+        {
+            "id": 1,
+            "Question": "What tag is used to define a hyperlink in HTML?",
+            "options": [
+                {
+                    "label": "A. a",
+                    "correct": true
+                },
+                {
+                    "label": "B. <href>"
+                },
+                {
+                    "label": "C. <hyper>"
+                },
+                {
+                    "label": "D. <link>"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "Question": "Which tag creates the largest heading in HTML?",
+            "options": [
+                {
+                    "label": "A. h6"
+                },
+                {
+                    "label": "B. <header>"
+                },
+                {
+                    "label": "C. <h1>",
+                    "correct": true
+                },
+                {
+                    "label": "D. <head>"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "Question": "What is the purpose of the <br> tag?",
+            "options": [
+                {
+                    "label": "A. Start a new paragraph"
+                },
+                {
+                    "label": "B. Break line",
+                    "correct": true
+                },
+                {
+                    "label": "C. Bold text"
+                },
+                {
+                    "label": "D. Create a list"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "Question": "How do you add an image to a webpage? ",
+            "options": [
+                {
+                    "label": "A. <img src='url'>",
+                    "correct": true
+                },
+                {
+                    "label": "B. <src='url'>"
+                },
+                {
+                    "label": "C. <image='url'>"
+                },
+                {
+                    "label": "D. <media src='url'>"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "Question": "Which HTML tag is used to define a table cell?",
+            "options": [
+                {
+                    "label": "A. <table>"
+                },
+                {
+                    "label": "B. <td>",
+                    "correct": true
+                },
+                {
+                    "label": "C. <th>"
+                },
+                {
+                    "label": "D. <tr>"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "Question": "What does the <ul> tag represent?",
+            "options": [
+                {
+                    "label": "A. Ordered List"
+                },
+                {
+                    "label": "B. Underlined List"
+                },
+                {
+                    "label": "C. Unordered List",
+                    "correct": true
+                },
+                {
+                    "label": "D. Universal List"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "Question": "Which tag is used to make text bold?",
+            "options": [
+                {
+                    "label": "A. <strong>"
+                },
+                {
+                    "label": "B. <bold>"
+                },
+                {
+                    "label": "C. <b>",
+                    "correct": true
+                },
+                {
+                    "label": "D. <em>"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "Question": "How is a comment inserted in an HTML document?",
+            "options": [
+                {
+                    "label": "A. <!--comment-->",
+                    "correct": true
+                },
+                {
+                    "label": "B. //comment//"
+                },
+                {
+                    "label": "C. /*comment*/"
+                },
+                {
+                    "label": "D. #comment"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "Question": "What HTML element is used for a top-level heading?",
+            "options": [
+                {
+                    "label": "A. <h1>",
+                    "correct": true
+                },
+                {
+                    "label": "B. <heading>"
+                },
+                {
+                    "label": "C. <head>"
+                },
+                {
+                    "label": "D. <header>"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "Question": "Which attribute specifies the URL in an <a> tag for linking?",
+            "options": [
+                {
+                    "label": "A. Link",
+                    "correct": true
+                },
+                {
+                    "label": "B. Href"
+                },
+                {
+                    "label": "C. Src"
+                },
+                {
+                    "label": "D. Url"
+                }
+            ]
+        }
+    ],
+    "medium_questions": [
+        {
+            "id": 1,
+            "Question": "What does HTML stand for?",
+            "options": [
+                {
+                    "label": "A. HighText Machine Language"
+                },
+                {
+                    "label": "B. Hypertext and links Markup Language"
+                },
+                {
+                    "label": "C. HyperText Markup Language",
+                    "correct": true
+                },
+                {
+                    "label": "D. None of these"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "Question": "The correct sequence of HTML tags for starting a webpage is -",
+            "options": [
+                {
+                    "label": "A. Head, Title, HTML, Body"
+                },
+                {
+                    "label": "B. HTML, Body, Title, Head"
+                },
+                {
+                    "label": "C. HTML, Head, Body, Title "
+                },
+                {
+                    "label": "D. HTML, Head, Title, Body",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "Question": "Which of the following element is responsible for making the text italic in HTML?",
+            "options": [
+                {
+                    "label": "A. <i>",
+                    "correct": true
+                },
+                {
+                    "label": "B. <italic>"
+                },
+                {
+                    "label": "C. <it>"
+                },
+                {
+                    "label": "D. <pre>"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "Question": "How to add a background color in HTML?",
+            "options": [
+                {
+                    "label": "A. <marquee bg color: 'red' "
+                },
+                {
+                    "label": "B. <marquee bg-color = 'red' "
+                },
+                {
+                    "label": "C. <marquee bgcolor='red'>",
+                    "correct": true
+                },
+                {
+                    "label": "D. <marquee color = 'red'>"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "Question": "<input> is -",
+            "options": [
+                {
+                    "label": "A. a format tag."
+                },
+                {
+                    "label": "B. an empty tag.",
+                    "correct": true
+                },
+                {
+                    "label": "C. All of the above."
+                },
+                {
+                    "label": "D. None of the above."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "Question": "How to create a checkbox in HTML?",
+            "options": [
+                {
+                    "label": "A. <input type = 'checkbox'",
+                    "correct": true
+                },
+                {
+                    "label": "B. <input type='button'>"
+                },
+                {
+                    "label": "C. <checkbox>"
+                },
+                {
+                    "label": "D. <input type = 'check'"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "Question": "Which of the following tag is used to define options in a drop-down selection list?",
+            "options": [
+                {
+                    "label": "A. <select>"
+                },
+                {
+                    "label": "B. <list>"
+                },
+                {
+                    "label": "C. <dropdown>"
+                },
+                {
+                    "label": "D. <option>",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "Question": "HTML tags are enclosed in-",
+            "options": [
+                {
+                    "label": "A. # and #"
+                },
+                {
+                    "label": "B. { and }"
+                },
+                {
+                    "label": "C. ! and ?"
+                },
+                {
+                    "label": "D. < and >",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "Question": "The <hr> tag in HTML is used for -",
+            "options": [
+                {
+                    "label": "A. new line",
+                    "correct": true
+                },
+                {
+                    "label": "B. vertical ruler"
+                },
+                {
+                    "label": "C. new paragraph"
+                },
+                {
+                    "label": "D. horizontal ruler"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "Question": "Which of the following attribute is used to provide a unique name to an element?",
+            "options": [
+                {
+                    "label": "A. class"
+                },
+                {
+                    "label": "B. id",
+                    "correct": true
+                },
+                {
+                    "label": "C. type"
+                },
+                {
+                    "label": "D. None of the above"
+                }
+            ]
+        }
+    ],
+    "hard_questions": [
+        {
+            "id": 1,
+            "Question": "Which of the following HTML tag is used to display the text with scrolling effect?",
+            "options": [
+                {
+                    "label": "A. <marquee>",
+                    "correct": true
+                },
+                {
+                    "label": "B. <scroll>"
+                },
+                {
+                    "label": "C. <div>"
+                },
+                {
+                    "label": "D. None of these"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "Question": "Which of the following HTML tag is the special formatting tag?",
+            "options": [
+                {
+                    "label": "A. <p>"
+                },
+                {
+                    "label": "B. <b>"
+                },
+                {
+                    "label": "C. <pre> ",
+                    "correct": true
+                },
+                {
+                    "label": "D. None of the above"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "Question": "Which of the following is the correct way to send mail in HTML?",
+            "options": [
+                {
+                    "label": "A. <a href = 'mailto:xy@y",
+                    "correct": true
+                },
+                {
+                    "label": "B. <a href = 'xy@y'"
+                },
+                {
+                    "label": "C. <mail xy@y</mail>"
+                },
+                {
+                    "label": "D. None of the above"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "Question": "How to insert a background image in HTML?",
+            "options": [
+                {
+                    "label": "A. <body background = 'img.png'>",
+                    "correct": true
+                },
+                {
+                    "label": "B. <img background = 'img.png' "
+                },
+                {
+                    "label": "C. <bg-imgr='img.png'>"
+                },
+                {
+                    "label": "D. None of the above"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "Question": "What are the types of unordered or bulleted list in HTML?",
+            "options": [
+                {
+                    "label": "A. disc, square, triangle"
+                },
+                {
+                    "label": "B. polygon, triangle, circle"
+                },
+                {
+                    "label": "C. disc, circle, square",
+                    "correct": true
+                },
+                {
+                    "label": "D. All of the above."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "Question": "Which of the following is the correct way to start an ordered list with the count of numeric value 4?",
+            "options": [
+                {
+                    "label": "A. <ol type = 'l' initial = '4'>"
+                },
+                {
+                    "label": "B. <ol type = 'l' begin = '4'>"
+                },
+                {
+                    "label": "C. <ol type = 'l' num = '4'>"
+                },
+                {
+                    "label": "D. <ol type = 'l' start ='4'>",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "Question": " Which of the following HTML attribute is used to define inline styles?",
+            "options": [
+                {
+                    "label": "A. style",
+                    "correct": true
+                },
+                {
+                    "label": "B. type"
+                },
+                {
+                    "label": "C. class"
+                },
+                {
+                    "label": "D. None of the above"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "Question": " A program in HTML can be rendered and read by -",
+            "options": [
+                {
+                    "label": "A. Web browser",
+                    "correct": true
+                },
+                {
+                    "label": "B. Server"
+                },
+                {
+                    "label": "C. Interpreter"
+                },
+                {
+                    "label": "D. None of the above"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "Question": "The tags in HTML are -",
+            "options": [
+                {
+                    "label": "A. case-sensitive"
+                },
+                {
+                    "label": "B. in upper case"
+                },
+                {
+                    "label": "C. non case sensitive",
+                    "correct": true
+                },
+                {
+                    "label": "D. in lowercase"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "Question": "Which of the following are the attributes of the tag?",
+            "options": [
+                {
+                    "label": "A. method"
+                },
+                {
+                    "label": "B. action"
+                },
+                {
+                    "label": "C. Both (a) & (b)",
+                    "correct": true
+                },
+                {
+                    "label": "D. None of the above"
+                }
+            ]
+        }
+    ]
+}

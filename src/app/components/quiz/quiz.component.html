@@ -1,0 +1,92 @@
+
+<div class="fullscreen-background">
+    <div class="container">
+        <div class="card d-flex justify-content-center align-items-center mx-auto" *ngIf="showWarning">
+            <div class="card-body info_box">
+                <div class="info-list">
+                    <div class="info">1. You will have only <span> 15 seconds</span> per question.</div>
+                    <div class="info">2. Once you select your answer, it can't be undone.</div>
+                    <div class="info">3. You can't select any option once time goes off.</div>
+                    <div class="info">4. You can't exit from the Quiz Once Started.</div>
+
+                    <div class="button">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                            routerLink="/catergories">Exit
+                            Quiz</button>
+                        <button type="button" class="btn btn-primary" (click)="startQuiz()"> Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card" *ngIf="!showWarning">
+            <div class="quiz_box" [ngClass]="isQuizStarted? 'activeQuiz' : '' ">
+
+                <div class="card-header quiz-header">Quiz Application
+                    <div class="timer">
+                        <div class="time_left_txt">Time off</div>
+                        <div class="timer_sec">{{ minutes }}:{{ seconds | number: '2.0' }}</div>
+                        <!-- <div class="timer_sec">{{timer}}</div>   -->
+                         
+                    </div>
+                </div>
+
+                <div class="time_line" style="width: 550px;"></div>
+
+                <div class="card-body">
+
+                    <div class="qustion-list">
+
+                        <div *ngIf="htmlQuestionsFromCategoryComp.length">
+                            <div>
+                                <h5>{{ htmlQuestionsFromCategoryComp[currentQuestionNo].question }}</h5>
+                                <div *ngFor="let option of htmlQuestionsFromCategoryComp[currentQuestionNo].options">
+                                    <label>
+                                        <input type="radio" name="answer" [value]="option"
+                                            (change)="selectAnswer(option)" />
+                                        {{ option }}
+                                    </label>
+                                </div>
+                            </div>
+
+                           
+
+                            <button *ngIf="currentQuestionNo+1 >1" class="btn btn-primary" (click)="prevQuestion()">Prev
+                                Question</button>
+
+                                <button *ngIf="currentQuestionNo+1 !== htmlQuestionsFromCategoryComp.length"
+                                class="btn btn-primary" (click)="nextQuestion()">Next Question</button>
+
+                                <button *ngIf="currentQuestionNo+1 == htmlQuestionsFromCategoryComp.length"
+                                class="btn btn-primary" (click)="finish()">Finish</button>
+
+                            <div class="card-footer text-muted card-footer quiz-footer text-center">
+                                <p>{{currentQuestionNo+1}} of {{htmlQuestionsFromCategoryComp.length}} Questions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="result_box" style="height: 100%; width: 100%;" [ngClass]="isQuizEnded? 'activeResult' : ''">
+                <div class="icon">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="complete_text">You've completed your Quiz</div>
+                <div class="score_text">
+                    <span> and congrats , you got <p>{{correct_Answer_Count}}</p>out of <p>
+                            {{htmlQuestionsFromCategoryComp.length}}</p></span>
+                </div>
+                <div class="buttons">
+                    <button class="reastart"> Replay Quiz </button>
+                    <button class="quit" (click)="start()">Quit Quiz</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

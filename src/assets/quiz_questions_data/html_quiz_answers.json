@@ -1,0 +1,148 @@
+{
+    "Basic HTML Structure": {
+        "Easy": [
+            {
+                "id": 1,
+                "correct": "A. <a>"
+            },
+            {
+                "id": 2,
+                "correct": "C. <h1>"
+            },
+            {
+                "id": 3,
+                "correct": "A. <img src='url'>"
+            },
+            {
+                "id": 4,
+                "correct": "B. <td>"
+            },
+            {
+                "id": 5,
+                "correct": "C. Unordered List"
+            }
+        ],
+        "Medium": [
+            {
+                "id": 6,
+                "correct": "C. HyperText Markup Language"
+            },
+            {
+                "id": 7,
+                "correct": "D. HTML, Head, Title, Body"
+            },
+            {
+                "id": 8,
+                "correct": "A. <i>"
+            },
+            {
+                "id": 9,
+                "correct": "C. <marquee bgcolor='red'>"
+            },
+            {
+                "id": 10,
+                "correct": "B. an empty tag."
+            }
+        ],
+        "Hard": [
+            {
+                "id": 11,
+                "correct": "C. <div>"
+            },
+            {
+                "id": 12,
+                "correct": "C. <pre> "
+            },
+            {
+                "id": 13,
+                "correct": "A. <a href = 'mailto:xy@y"
+            },
+            {
+                "id": 14,
+                "correct": "A. <body background = 'img.png'>"
+            },
+            {
+                "id": 15,
+                "correct": "C. disc, circle, square"
+            }
+        ]
+    },
+    "Forms and Input Elements": {
+        "Easy": [
+            {
+                "id": 16,
+                "correct": "C. disc, circle, square"
+            },
+            {
+                "id": 17,
+                "correct": "A. <!--comment-->"
+            },
+            {
+                "id": 18,
+                "correct": "A. <h1>"
+            },
+            {
+                "id": 19,
+                "correct": "A. Link"
+            },
+            {
+                "id": 20,
+                "correct": "A. <input type = 'checkbox'"
+            },
+            {
+                "id": 21,
+                "correct": "D. <option>"
+            }
+        ],
+        "Medium": [
+            {
+                "id": 22,
+                "correct": "D. < and >"
+            },
+            {
+                "id": 23,
+                "correct": "A. new line"
+            },
+            {
+                "id": 24,
+                "correct": "B. id"
+            },
+            {
+                "id": 26,
+                "correct": "B. id"
+            },
+            {
+                "id": 27,
+                "correct": "D. <ol type = 'l' start ='4'>"
+            },
+            {
+                "id": 28,
+                "correct": "A. style"
+            }
+        ],
+        "Hard": [
+            {
+                "id": 29,
+                "correct": "A. Web browser"
+            },
+            {
+                "id": 30,
+                "correct": "C. non case sensitive"
+            },
+            {
+                "id": 31,
+                "correct": "C. Both (a) & (b)"
+            }
+        ]
+    },
+    "Forms and Input Semantic HTML": {
+        "Easy": [
+            {
+                "id": 31,
+                "correct": "C. Both (a) & (b)"
+            }
+        ],
+        "Medium": [],
+        "Hard": []
+    }
+}

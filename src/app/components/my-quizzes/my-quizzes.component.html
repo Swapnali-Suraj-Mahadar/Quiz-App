@@ -1,0 +1,82 @@
+<div class="modal fade show" tabindex="-1" role="dialog" [ngClass]="{'d-block': showModal}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title  scoreModal">Quiz Result</h5>
+
+      </div>
+      <div class="modal-body">
+
+        <h5>Your Score: {{ score }} out of {{ selectedAnswers.length }}</h5>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" (click)="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- my-quizzes.component.html -->
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>Category</th>
+            <th>Difficulty</th>
+            <th>Score</th>
+            <th>Review</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let result of results; let i=index">
+            <td>{{ result.category }}</td>
+            <td>{{ result.difficulty }}</td>
+            <td>{{ result.score}}</td>
+            <td>
+              <!-- <button type="button" class="btn btn-primary" (click)="getlocalStorageData()">Review your Answers</button> -->
+              <button class="btn btn-primary" (click)="getlocalStorageData()">Review your answers</button>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+
+    </div>
+  </div>
+</div>
+
+<div *ngIf="localStorageData">
+  <div class="container mt-4">
+    <div *ngIf="allGivenQuizResult.length">
+      <div class="row">
+        <div class="col-6">
+          <h2>Review Quiz</h2>
+          <h5>Your Score: {{ score }} out of {{ selectedAnswers.length }}</h5>
+        
+          <div *ngFor="let question of allGivenQuizResult let i = index" class="mb-4">
+            <h5>{{question.question}}</h5>
+
+            <ul class="list-group">
+              <li *ngFor="let option of question.options" class="list-group-item">
+                {{ option }}
+                <span *ngIf="option === htmlSelectedQuestionCorrectAnswers[i]" class="badge bg-success float-end"><i
+                    class="bi bi-check-circle-fill"></i></span>
+                <span *ngIf="option === selectedAnswers[i] && option !== htmlSelectedQuestionCorrectAnswers[i]"
+                  class="badge bg-danger float-end"> <i class="bi bi-x-circle-fill"></i></span>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

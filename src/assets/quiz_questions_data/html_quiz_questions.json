@@ -1,0 +1,334 @@
+{
+  "Basic HTML Structure": {
+    "Easy": [
+      {
+        "questionId": 1,
+        "question": "Which tag is used to add hyperlink?",
+        "options": [
+          "A. <a>",
+          "B. <href>",
+          "C. <hyper>",
+          "D. <link>"
+        ]
+      },
+      {
+        "questionId": 2,
+        "question": "Which tag creates the largest heading in HTML?",
+        "options": [
+          "A. <h6>",
+          "B. <header>",
+          "C. <h1>",
+          "D. <head>"
+        ]
+      },
+      {
+        "questionId": 3,
+        "question": "How do you add an image to a webpage?",
+        "options": [
+          "A. <img src='url'>",
+          "B. <src='url'>",
+          "C. <image='url'>",
+          "D. <media src='url'>"
+        ]
+      },
+      {
+        "questionId": 4,
+        "question": "Which HTML tag is used to define a table cell?",
+        "options": [
+          "A. <table>",
+          "B. <td>",
+          "C. <th>",
+          "D. <tr>"
+        ]
+      },
+      {
+        "questionId": 5,
+        "question": "What does the <ul> tag represent?",
+        "options": [
+          "A. Ordered List",
+          "B. Underlined List",
+          "C. Unordered List",
+          "D. Universal List"
+        ]
+      }
+    ],
+    "Medium": [
+      {
+        "questionId": 6,
+        "question": "What does HTML stand for?",
+        "options": [
+          "A. HighText Machine Language",
+          "B. Hypertext and links Markup Language",
+          "C. HyperText Markup Language",
+          "D. None of these"
+        ]
+      },
+      {
+        "questionId": 7,
+        "question": "The correct sequence of HTML tags for starting a webpage is -",
+        "options": [
+          "A. Head, Title, HTML, Body",
+          "B. HTML, Body, Title, Head",
+          "C. HTML, Head, Body, Title ",
+          "D. HTML, Head, Title, Body"
+        ]
+      },
+      {
+        "questionId": 8,
+        "question": "Which of the following element is responsible for making the text italic in HTML?",
+        "options": [
+          "A. <i>",
+          "B. <italic>",
+          "C. <it>",
+          "D. <pre>"
+        ]
+      },
+      {
+        "questionId": 9,
+        "question": "How to add a background color in HTML?",
+        "options": [
+          "A. <marquee bg color: 'red' ",
+          "B. <marquee bg-color = 'red' ",
+          "C. <marquee bgcolor='red'>",
+          "D. <marquee color = 'red'>"
+        ]
+      },
+      {
+        "questionId": 10,
+        "question": "<input> is -",
+        "options": [
+          "A. a format tag.",
+          "B. an empty tag.",
+          "C. All of the above.",
+          "D. None of the above."
+        ]
+      }
+    ],
+    "Hard": [
+      {
+        "questionId": 11,
+        "question": "Which of the following HTML tag is used to display the text with scrolling effect?",
+        "options": [
+          "A. <marquee>",
+          "B. <scroll>",
+          "C. <div>",
+          "D. None of these"
+        ]
+      },
+      {
+        "questionId": 12,
+        "question": "Which of the following HTML tag is the special formatting tag?",
+        "options": [
+          "A. <p>",
+          "B. <b>",
+          "C. <pre> ",
+          "D. None of the above"
+        ]
+      },
+      {
+        "questionId": 13,
+        "question": "Which of the following is the correct way to send mail in HTML?",
+        "options": [
+          "A. <a href = 'mailto:xy@y",
+          "B. <a href = 'xy@y'",
+          "C. <mail xy@y</mail>",
+          "D. None of the above"
+        ]
+      },
+      {
+        "questionId": 14,
+        "question": "How to insert a background image in HTML?",
+        "options": [
+          "A. <body background = 'img.png'>",
+          "B. <img background = 'img.png' ",
+          "C. <bg-imgr='img.png'>",
+          "D. None of the above"
+        ]
+      },
+      {
+        "questionId": 15,
+        "question": "What are the types of unordered or bulleted list in HTML?",
+        "options": [
+          "A. disc, square, triangle",
+          "B. polygon, triangle, circle",
+          "C. disc, circle, square",
+          "D. All of the above."
+        ]
+      }
+    ]
+  },
+  "Forms and Input Elements": {
+    "Easy": [
+      {
+        "questionId": 16,
+        "question": "What are the types of unordered or bulleted list in HTML?",
+        "options": [
+          "A. <strong>",
+          "B. <bold>",
+          "C. <b>",
+          "D. <em>"
+        ]
+      },
+      {
+        "questionId": 17,
+        "question": "How is a comment inserted in an HTML document?",
+        "options": [
+          "A. <!--comment-->",
+          "B. //comment//",
+          "C. /*comment*/",
+          "D. #comment"
+        ]
+      },
+      {
+        "questionId": 18,
+        "question": "What HTML element is used for a top-level heading?",
+        "options": [
+          "A. <h1>",
+          "B. <heading>",
+          "C. <head>",
+          "D. <header>"
+        ]
+      },
+      {
+        "questionId": 19,
+        "question": "Which attribute specifies the URL in an <a> tag for linking?",
+        "options": [
+          "A. Link",
+          "B. Href",
+          "C. Src",
+          "D. Url"
+        ]
+      },
+      {
+        "questionId": 20,
+        "question": "How to create a checkbox in HTML?",
+        "options": [
+          "A. <input type = 'checkbox'",
+          "B. <input type='button'>",
+          "C. <checkbox>",
+          "D. <input type = 'check'"
+        ]
+      },
+      {
+        "questionId": 21,
+        "question": "Which of the following tag is used to define options in a drop-down selection list?",
+        "options": [
+          "A. <select>",
+          "B. <list>",
+          "C. <dropdown>",
+          "D. <option>"
+        ]
+      }
+    ],
+    "Medium": [
+      {
+        "questionId": 22,
+        "question": "HTML tags are enclosed in-",
+        "options": [
+          "A. # and #",
+          "B. { and }",
+          "C. ! and ?",
+          "D. < and >"
+        ]
+      },
+      {
+        "questionId": 23,
+        "question": "The <hr> tag in HTML is used for -",
+        "options": [
+          "A. new line",
+          "B. vertical ruler",
+          "C. new paragraph",
+          "D. horizontal ruler"
+        ]
+      },
+      {
+        "questionId": 24,
+        "question": "Which of the following attribute is used to provide a unique name to an element?",
+        "options": [
+          "A. class",
+          "B. id",
+          "C. type",
+          "D. None of the above"
+        ]
+      },
+      {
+        "questionId": 25,
+        "question": "Which of the following attribute is used to provide a unique name to an element?",
+        "options": [
+          "A. class",
+          "B. id",
+          "C. type",
+          "D. None of the above"
+        ]
+      },
+      {
+        "questionId": 26,
+        "question": "Which of the following is the correct way to start an ordered list with the count of numeric value 4?",
+        "options": [
+          "A. <ol type = 'l' initial = '4'>",
+          "B. <ol type = 'l' begin = '4'>",
+          "C. <ol type = 'l' num = '4'>",
+          "D. <ol type = 'l' start ='4'>"
+        ]
+      },
+      {
+        "questionId": 27,
+        "question": " Which of the following HTML attribute is used to define inline styles?",
+        "options": [
+          "A. style",
+          "B. type",
+          "C. class",
+          "D. None of the above"
+        ]
+      }
+    ],
+    "Hard": [
+      {
+        "questionId": 28,
+        "question": " A program in HTML can be rendered and read by -",
+        "options": [
+          "A. Web browser",
+          "B. Server",
+          "C. Interpreter",
+          "D. None of the above"
+        ]
+      },
+      {
+        "questionId": 29,
+        "question": "The tags in HTML are -",
+        "options": [
+          "A. case-sensitive",
+          "B. in upper case",
+          "C. non case sensitive",
+          "D. in lowercase"
+        ]
+      },
+      {
+        "questionId": 30,
+        "question": "Which of the following are the attributes of the tag?",
+        "options": [
+          "A. method",
+          "B. action",
+          "C. Both (a) & (b)",
+          "D. None of the above"
+        ]
+      }
+    ]
+  },
+  "Forms and Input Semantic HTML": {
+    "Easy": [
+      {
+        "questionId": 31,
+        "question": "Which of the following are the attributes of the tag?",
+        "options": [
+          "A. method",
+          "B. action",
+          "C. Both (a) & (b)",
+          "D. None of the above"
+        ]
+      }
+    ],
+    "Medium": [],
+    "Hard": []
+  }
+}

@@ -1,0 +1,39 @@
+[
+   
+        {
+            "userId": 1,
+            "userName":"John",
+            "email": "john@123.com",
+            "password": "john123",
+            "role": "Admin"
+        },
+        {
+            "userId": 2,
+            "username":"Smith",
+            "email": "smith@123.com",
+            "password": "smith123",
+            "role": "user"
+        },
+        {
+            "userId": 1,
+            "username": "Rita",
+            "email": "rita@123.com",
+            "password": "john123",
+            "role": "user"
+        },
+        {
+            "userId": 1,
+            "username": "Maya",
+            "email": "maya@123.com",
+            "password": "john123",
+            "role": "user"
+        },
+        {
+            "userId": 1,
+            "username":"Harry",
+            "email": "harry@123.com",
+            "password": "john123",
+            "role": "Admin"
+        }
+    
+    ]

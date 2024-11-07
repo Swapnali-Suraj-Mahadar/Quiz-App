@@ -1,0 +1,52 @@
+[
+    {
+        "questionId": 1,
+        "question": "Which tag is used to add hyperlink?",
+        "options": [
+            "A. <a>",
+            "B. <href>",
+            "C. <hyper>",
+            "D. <link>"
+        ]
+    },
+    {
+        "questionId": 2,
+        "question": "Which tag creates the largest heading in HTML?",
+        "options": [
+            "A. <h6>",
+            "B. <header>",
+            "C. <h1>",
+            "D. <head>"
+        ]
+    },
+    {
+        "questionId": 3,
+        "question": "How do you add an image to a webpage?",
+        "options": [
+            "A.  <img src='url'>",
+            "B. <src='url'>",
+            "C. <image='url'>",
+            "D. <media src='url'>"
+        ]
+    },
+    {
+        "questionId": 4,
+        "question": "Which HTML tag is used to define a table cell?",
+        "options": [
+            "A. <table>",
+            "B. <td>",
+            "C. <th>",
+            "D. <tr>"
+        ]
+    },
+    {
+        "questionId": 5,
+        "question": "What does the <ul> tag represent?",
+        "options": [
+            "A. Ordered List",
+            "B. Underlined List",
+            "C. Unordered List",
+            "D. Universal List"
+        ]
+    }
+]

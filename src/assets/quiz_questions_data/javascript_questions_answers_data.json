@@ -1,0 +1,527 @@
+{
+    "easy_questions": [
+        {
+            "id": 1,
+            "Question": "Inside which HTML element do we put the JavaScript?",
+            "options": [
+                {
+                    "label": "A. <scripting>"
+                },
+                {
+                    "label": "B. <javascript>"
+                },
+                {
+                    "label": "C. <script>",
+                    "correct": true
+                },
+                {
+                    "label": "D. <link>"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "Question": "What is the correct JavaScript syntax to change the content of the HTML element below?",
+            "options": [
+                {
+                    "label": "A. document.getElementByName('P').innerHTML='Hello World!';"  
+                },
+                {
+                    "label": "B. document.getElementById('demo').innerHTML = 'Hello World!';",
+                    "correct":true
+                },
+                {
+                    "label": "C. document.getElement('p').innerHTML = 'Hello World!'';"
+                },
+                {
+                    "label": "D. #demo.innerHTML = 'Hello World!'';"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "Question": "Where is the correct place to insert a JavaScript?",
+            "options": [
+                {
+                    "label": "A. The <body> section"
+                },
+                {
+                    "label": "B. Both the <head> section and the <body> section are correct",
+                    "correct": true
+                },
+                {
+                    "label": "C. The <head> section"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "Question": "What is the correct syntax for referring to an external script called 'xxx.js'? ",
+            "options": [
+                {
+                    "label": "A. <script href='xxx.js'>",
+                    "correct": true
+                },
+                {
+                    "label": "B. <script name='xxx.js'>"
+                },
+                {
+                    "label": "C. <script src='xxx.js'>"
+                }
+               
+            ]
+        },
+        {
+            "id": 5,
+            "Question": "The external JavaScript file must contain the <script> tag.",
+            "options": [
+                {
+                    "label": "A. True"
+                },
+                {
+                    "label": "B. False",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "Question": "How do you write 'Hello World' in an alert box?",
+            "options": [
+                {
+                    "label": "A. msg('Hello World');"
+                },
+                {
+                    "label": "B. alrt('Hello World');",
+                    "correct":true
+                },
+                {
+                    "label": "C. alertBox('Hello World');"
+                },
+                {
+                    "label": "D. msgBox('Hello World');"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "Question": "How do you create a function in JavaScript?",
+            "options": [
+                {
+                    "label": "A. function myFunction()",
+                    "correct":true
+                },
+                {
+                    "label": "B. function:myFunction()"
+                },
+                {
+                    "label": "C. function = myFunction()"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "Question": "How do you call a function named 'myFunction'?",
+            "options": [
+                {
+                    "label": "A. call myFunction()"
+                },
+                {
+                    "label": "B. call function myFunction()"
+                },
+                {
+                    "label": "C. myFunction()",
+                    "correct":true
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "Question": "How to write an IF statement in JavaScript?",
+            "options": [
+                {
+                    "label": "A. if(i==5)",
+                    "correct": true
+                },
+                {
+                    "label": "B. if i = 5"
+                },
+                {
+                    "label": "C. if i = 5 then"
+                },
+                {
+                    "label": "D. if i == 5 then"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "Question": "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+            "options": [
+                {
+                    "label": "A. if(i != 5)",
+                    "correct": true
+                },
+                {
+                    "label": "B. if(i<>5)"
+                },
+                {
+                    "label": "C. if i <> 5"
+                },
+                {
+                    "label": "D. if i =! 5 then"
+                }
+            ]
+        }
+    ],
+    "medium_questions": [
+        {
+            "id": 1,
+            "Question": "How does a WHILE loop start?",
+            "options": [
+                {
+                    "label": "A. while (i <= 10)",
+                    "correct":true
+                },
+                {
+                    "label": "B. while i = 1 to 10"
+                },
+                {
+                    "label": "C. while(i <= 10; i++)"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "Question": "How does a FOR loop start?",
+            "options": [
+                {
+                    "label": "A. for (i = 0; i <= 5; i++)",
+                    "correct":true
+                },
+                {
+                    "label": "B. for i = 1 to 5"
+                },
+                {
+                    "label": "C. for (i = 0; i <= 5)"
+                },
+                {
+                    "label": "D. for (i <=5; i++)"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "Question": "How can you add a comment in a JavaScript?",
+            "options": [
+                {
+                    "label": "A. <!--This is a comment--> "
+                },
+                {
+                    "label": "B. 'This is a comment "
+                },
+                {
+                    "label": "C. //'This is a comment",
+                    "correct":true
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "Question": "How to insert a comment that has more than one line?",
+            "options": [
+                {
+                    "label": "A. <!--This comment has more than one line-->  "
+                },
+                {
+                    "label": "B. //This comment has more than one line// "
+                },
+                {
+                    "label": "C. /*This comment has more than one line*/  ",
+                    "correct": true
+                }
+             
+            ]
+        },
+        {
+            "id": 5,
+            "Question": "What is the correct way to write a JavaScript array?",
+            "options": [
+                {
+                    "label": "var colors = (1:'red', 2:'green', 3:'blue')"
+                },
+                {
+                    "label": "B. var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+                },
+                {
+                    "label": "C. var colors = ['red', 'green', 'blue']",
+                    "correct": true
+                },
+                {
+                    "label": "D. var colors = 'red', 'green', 'blue'"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "Question": "How do you round the number 7.25, to the nearest integer?",
+            "options": [
+                {
+                    "label": "A. Math.rnd(7.25)"
+                },
+                {
+                    "label": "B. Math.round(7.25)",
+                    "correct": true
+                },
+                {
+                    "label": "C. round(7.25)"
+                },
+                {
+                    "label": "D. rnd(7.25)"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "Question": "How do you find the number with the highest value of x and y?",
+            "options": [
+                {
+                    "label": "A. Math.ceil(x, y)"
+                },
+                {
+                    "label": "B. Math.max(x, y)",
+                    "correct":true
+                },
+                {
+                    "label": "C. top(x.y)"
+                },
+                {
+                    "label": "D. ceil(x,y)"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "Question": "What is the correct JavaScript syntax for opening a new window called 'w2'?",
+            "options": [
+                {
+                    "label": "A.w2 = window.open('http://www.w3schools.com');",
+                    "correct":true
+                },
+                {
+                    "label": "B. w2 = window.new('http://www.w3schools.com');"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "Question": "JavaScript is the same as Java.",
+            "options": [
+                {
+                    "label": "A. False",
+                    "correct": true
+                },
+                {
+                    "label": "B. true"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "Question": "How can you detect the client's browser name?",
+            "options": [
+                {
+                    "label": "A. client.navName"
+                },
+                {
+                    "label": "B. navigator.appName",
+                    "correct": true
+                },
+                {
+                    "label": "C. browser.name"
+                }
+            ]
+        }
+    ],
+    "hard_questions": [
+        {
+            "id": 1,
+            "Question": "Which event occurs when the user clicks on an HTML element?",
+            "options": [
+                {
+                    "label": "A. onmouseclick"
+                },
+                {
+                    "label": "B. onchange"
+                },
+                {
+                    "label": "C. onclick",
+                    "correct":true
+                },
+                {
+                    "label": "D. onmouseover"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "Question": "How do you declare a JavaScript variable?",
+            "options": [
+                {
+                    "label": "A. variablr carName;"
+                },
+                {
+                    "label": "B. v crName;"
+                },
+                {
+                    "label": "C. vr carNamr; ",
+                    "correct": true
+                }
+                
+            ]
+        },
+        {
+            "id": 3,
+            "Question": "Which operator is used to assign a value to a variable?",
+            "options": [
+                {
+                    "label": "A. *"
+                },
+                {
+                    "label": "B. X"
+                },
+                {
+                    "label": "C. =",
+                    "correct":true
+                },
+                {
+                    "label": "D. -"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "Question": "What will the following code return: Boolean(10 > 9)",
+            "options": [
+                {
+                    "label": "A. true",
+                    "correct": true
+                },
+                {
+                    "label": "B. false "
+                },
+                {
+                    "label": "C. NaN"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "Question": "Is JavaScript case-sensitive?",
+            "options": [
+                {
+                    "label": "A. Yes",
+                    "correct":true
+                },
+                {
+                    "label": "B. No"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "Question": " What will be the output of the following code snippet? \n const obj1 = {first: 20, second: 30, first: 50}; \n console.log(obj1);",
+            "options": [
+                {
+                    "label": "A. {first:20, second:30}"
+                },
+                {
+                    "label": "B. {first:50, second:30}",
+                    "correct":true
+                },
+                {
+                    "label": "C. {first:20, second:30, first:50}"
+                },
+                {
+                    "label": "D. Syntax Error"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "Question": "Which function is used to serialize an object into a JSON string in Javascript?",
+            "options": [
+                {
+                    "label": "A. stringfy()",
+                    "correct":true
+                },
+                {
+                    "label": "B. parse()"
+                },
+                {
+                    "label": "C. convert()"
+                },
+                {
+                    "label": "D. None of the above"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "Question": "What will be the output of the following code snippet? \n var a = true + true + true *3; \n print(a)",
+            "options": [
+                {
+                    "label": "A. 3"
+                },
+                {
+                    "label": "B. 0"
+                },
+                {
+                    "label": "C. Error"
+                },
+                {
+                    "label": "D. 5",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "Question": "What will be the output of the following code snippet? \n a = [1,2,3,4,5]; \n print(a.slice(2,4));",
+            "options": [
+                {
+                    "label": "A. 3,4",
+                    "correct":true
+                },
+                {
+                    "label": "B. 2,3"
+                },
+                {
+                    "label": "C. 3,4,5"
+                },
+                {
+                    "label": "D. 2,3,4"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "Question": "When an operator’s value is NULL, the typeof returned by the unary operator is:",
+            "options": [
+                {
+                    "label": "A. Boolean"
+                },
+                {
+                    "label": "B. Undefined"
+                },
+                {
+                    "label": "C. Object",
+                    "correct": true
+                },
+                {
+                    "label": "D. Integer"
+                }
+            ]
+        }
+    ]
+}

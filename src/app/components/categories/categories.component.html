@@ -1,0 +1,74 @@
+<div class="fullscreen-background">
+    <div class="container ">
+        <div class="row justify-content-end">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Categories</h5>
+                        <p class="card-text">Below quiz contains interview questions and answers that may be asked of UI
+                            developer job candidates.</p>
+                        <form [formGroup]="categoryForm">
+                            <div class="mb-3">
+                                <label for="mainDropdown" class="form-label">Select Quiz Category</label>
+                                <select formControlName="mainDropdown" class="form-select" id="mainDropdown">
+                                    <option value="" disabled> Select Quiz Category</option>
+                                    <option *ngFor="let option of options.mainDropdown" [value]="option">{{ option }}</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3" *ngIf="secondOptions.length">
+                                <label for="subCategoryDropdown" class="form-label">Select Sub-Item</label>
+                                <select formControlName="subCategoryDropdown" class="form-select" id="subCategoryDropdown">
+                                    <option value="" disabled>Select Sub-Item</option>
+                                    <option *ngFor="let option of secondOptions" [value]="option">{{ option }}</option>
+                                </select>
+
+                                
+                            </div>
+
+                            <div class="mb-3" *ngIf="thirdOptions.length">
+                                <label for="chooseDefficultyLevelDropdown" class="form-label">Choose Difficulty Level</label>
+                                <select formControlName="chooseDefficultyLevelDropdown" class="form-select" id="chooseDefficultyLevelDropdown">
+                                    <option value="" disabled>Choose Difficulty Level</option>
+                                    <option *ngFor="let option of thirdOptions" [value]="option">{{ option }}</option>
+                                </select>
+                            </div>
+                              <button type="button" class="btn btn-primary me-md-2"  [disabled]="categoryForm.invalid" routerLink="/quiz"  (click)="onClickCategory()">Launch Quiz</button>
+                              
+                        </form>
+
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="image-container">
+        <img src="../../../assets/quiz_bg.png" alt="Description of image" />
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- 
+<div class="container">
+    <div class="row justify-content-end">
+      <div class="col-md-4">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   -->

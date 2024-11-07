@@ -1,0 +1,41 @@
+.navbar-dark .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link {
+
+    transition   : all 0.3s ease;
+    border-radius: 0.25rem;
+    color        : #fff;
+}
+
+.navbar {
+    background-color: violet;
+}
+
+.fa-li {
+    position: relative;
+    left    : 0;
+}
+
+.userName {
+    position   : fixed;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size  : larger;
+    right      : 8rem;
+    cursor: default;
+
+}
+
+.logout-button {
+    position   : absolute;
+    /* top     : 100%; */
+    right      : 1rem;
+    margin-top : -1.2rem;
+    color      : #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size  : larger;
+
+}
